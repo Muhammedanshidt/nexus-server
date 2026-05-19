@@ -2,7 +2,7 @@ import {IControllerResponse} from "../../../interfaces/controller";
 
 
 
-export const login: IControllerResponse = async (req,res) => {
+export const login: IControllerResponse = async (req) => {
   // const { username } = req.body;
   console.log("on login");
   // try {
@@ -11,6 +11,6 @@ export const login: IControllerResponse = async (req,res) => {
   //   return customError(error);
 
 
-
+return "login";
   // }
 };
